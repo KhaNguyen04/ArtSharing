@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href= "{% static "first_app\css\FrontPage.css" %}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
+        <script src="https://kit.fontawesome.com/bd2459460f.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{%static "lightbox2-2.11.3\lightbox2-2.11.3\dist\css\lightbox.min.css"%}"> 
+        <script type="text/javascript" src="{%static "lightbox2-2.11.3\lightbox2-2.11.3\dist\js\lightbox-plus-jquery.min.js"%}"></script>
+        <title>{% block title %}NVApril{% endblock title %}</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light " id="nav1"style="background-color: #e9f2a7;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'web-home'%}">NVApril</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-link" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-globe-asia"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
+                    </ul>
+                </div>
+                {% if request.user.is_authenciated%}    
+                <p> Hello {{request.user}}</p>
+                {% endif %}
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                   
+                    <li class="nav-item">
+                    <a class="nav-link" id="login" href="{% url 'web-login'%}">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="signup" href="{% url 'web-signup'%}">Sign up</a>
+                        </li>
+                </ul>
+              
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light " id="nav2" style="background-color: #f8f7cf;">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a  class="nav-link active" aria-current="page" href="{% url 'web-home'%}">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a  class="nav-link" href="{% url 'web-drawing'%}">Drawings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="{% url 'web-photo'%}">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="{% url 'web-comic'%}">Comics/Strips</a>
+                    </li>
+                </div>
+                
+            </div>
+        </nav>
+    {%block content%}
+    <div class="front-image">  
+        <div class="txt">
+            <h1 >Share your world</h1>
+        </div>
+        <img src="{% static "first_app\images\frontpage.jpg"%}" alt="View">
+    </div>
+    <div class="head">
+    <h2>
+        New Uploads
+    </h2>
+    </div>  
+    <div class="grid">
+        <div class="image">
+            <a href="{% static "first_app\images\frontpage.jpg"%}" data-lightbox="mygallery" data-title="art name by username">
+                <img src="{% static "first_app\images\frontpage.jpg"%}" alt="placeholder" /></a>
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+          <div class="image">
+            <a href="http://picsum.photos/id/101/1300/1300" data-lightbox="mygallery" data-title="art name by username">
+            <img src="http://picsum.photos/id/101/1000/1800"  alt="placeholder" /></a>
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+        
+          <div class="image">
+            <a href="http://picsum.photos/id/102/1000/1000" data-lightbox="mygallery" >
+            <img src="http://picsum.photos/id/102/300/500" alt="placeholder" /></a>
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+          <div class="image">
+            <img src="http://picsum.photos/id/100/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+        
+          <div class="image">
+            <img src="http://picsum.photos/id/101/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+        
+          <div class="image">
+            <img src="http://picsum.photos/id/102/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+          <div class="image">
+            <img src="http://picsum.photos/id/100/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+        
+          <div class="image">
+            <img src="http://picsum.photos/id/101/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+        
+        
+          <div class="image">
+            <img src="http://picsum.photos/id/102/300/400" alt="placeholder" />
+            <p class="label1">art name</p>
+            <p class="label2">by username</p>
+          </div>
+    </div>
+    <script>
+        lightbox.option({
+          'showImageNumberLabel':false,
+        })
+    </script>
+    {%endblock%}
+</html>

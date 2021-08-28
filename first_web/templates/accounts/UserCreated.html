@@ -1,0 +1,8 @@
+{%extends "accounts/SignUp.html"%}
+{% block content%}
+
+    {%for message in messages%}
+        <p id="created">{{message}}</p>
+    {%endfor%}
+
+{% endblock content%}

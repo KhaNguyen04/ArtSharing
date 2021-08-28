@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href= "{% static "first_app\css\SignUp.css" %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <div id="container-fluid">
+        <div class="col-" id="left">
+            <div class="txt">
+                <h1>Share your world </h1>
+                <h2>Explore others</h2>
+            </div>
+            <img src="{% static "first_app\images\photo-1519750783826-e2420f4d687f.jfif"%}" alt="View">
+        </div>
+        {% block content%}
+        <div class="col-" id="right">
+            <div class="register-box">
+                <h3>Welcome to NVApril</h3>
+                <h4>Sign Up</h3>
+                    
+                <h6>Already have an account? <a href="{% url 'web-login'%}">Sign in</a></h6>
+                <div class="user-form">
+                    <form method="POST" action="">
+                        {% csrf_token %}
+                        <div class="username_input">
+                            <!-- <!-- <label for="username">Username</label><br>   
+                            <input id="username" name="username" value="{{form.username}}" >         -->
+                            <h5>Username</h5> 
+                            {{form.username}}                 
+                        </div>
+                        <div class="email_input">
+                            <!-- <label for="email">Email</label><br>   
+                            <input id="email" name="email" value="{{form.email}}" >   -->
+                            <h5>Email</h5>    
+                            {{form.email}}
+                        </div>
+                        <div class="password1_input">
+                            <h5>Password</h5>
+                            {{form.password1}}
+                            <!-- <label for="password1">Email</label><br>   
+                            <input id="username" name="username" value="{{form.password1}}" >   -->
+                            
+                         
+                        </div>
+                        <div class="password2_input">
+                            <h5>Confirm password</h5>
+                            {{form.password2}}
+                        </div>
+                        
+                        <input type="submit" name="submit button" value="Create Account" id="submit-button">
+                    </form>
+                </div>
+            </div>
+          
+            {% for field in form %}
+                {% for error in field.errors %}
+                    <p> {{ error }} </p>
+                {% endfor %}
+            {% endfor %}
+ 
+        </div>
+
+    </div>
+    <script>
+        var form_fields=document.getElementsbyTagName('input')
+        form_fields[1].placeholder='Username..';
+        form_fields[2].placeholder='Email..';
+        form_fields[3].placeholder='Enter password..';
+        form_fields[4].placeholder='Re-enter Password..';
+
+        for (var field in form_fields){
+            form_fields[field].className+='form-control'
+        }
+    </script>
+    {% endblock%}
+</body>
+</html>
+
