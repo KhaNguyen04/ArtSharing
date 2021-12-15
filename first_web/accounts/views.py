@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib import messages
 from .forms import CreateUserForm
 from django.contrib.auth import authenticate, login, logout
+from .models import *
 
 # Create your views here.
 def signup(request):
@@ -23,9 +24,8 @@ def loginApp(request):
         user=authenticate(request, username=username,password=password)
 
         if user is not None:
-            if user.is_active:
-                login(request, user)
-                return redirect('web-home')
+            login(request, user)
+            return redirect('web-home')
         else:
             messages.info(request,'Username or Password is incorrect')
     context={}
@@ -37,3 +37,4 @@ def logoutApp(request):
 
 def usercreated(request):
     return render(request,'accounts/UserCreated.html')
+

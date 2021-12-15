@@ -1,0 +1,72 @@
+.container-hearder{
+    color: aquamarine;
+}
+.left-header{
+    display:flex;
+    margin: 30px 60px;
+}
+.left-header div{
+    align-self: flex-end;
+}
+.left-header div h3{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.left-header div p{
+    display:inline-block;
+} 
+
+#follow-button{
+    border-radius:8px;
+    margin-left: 10px;
+    border-color:chocolate;
+    color: chocolate;
+    align-self: flex-end;
+}
+
+.profile-pic{
+    width:10rem;
+    clip-path:circle();  
+}
+
+#right-header{
+    margin-left: auto;
+    align-self: flex-start;
+
+}
+
+.nav-tabs{
+    margin:10px 25px;
+}
+
+
+
+
+
+.profile .grid-header {
+    background: url("https://bootdey.com/img/Content/bg1.jpg") no-repeat center center;
+    background-size: cover;
+    color: #f5f5f5;
+  }
+  
+  .profile img {
+    max-width: 100%;
+  }
+  
+  .profile .grid-header img {
+    margin: 2em 1em;
+  }
+  
+  .profile .grid-header h3 {
+    color: #f5f5f5 !important;
+    font-weight: 400;
+    margin: 30px 0 20px 0;
+  }
+  
+  .profile .grid-header p {
+    margin-bottom: 5px;
+  }
+  
+  .profile .grid-header p a {
+    color: #f5f5f5;
+  }

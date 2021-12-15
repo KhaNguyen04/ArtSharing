@@ -1,0 +1,48 @@
+{%extends "first_app/FrontPage.html"%}
+{% load static %}
+{% block page_title %}Profile{% endblock %}
+
+{% block content%}
+<link rel="stylesheet" href= "{% static "first_app\css\UserProfile.css" %}"><div class="profile-page">
+
+<div class="container-header">
+    <div class="left-header">
+        <img src="{% static "first_app\images\frontpage.jpg"%}" class="profile-pic">
+        <div>
+            <h3>John Doe</h3>
+            <div></div>
+            <p>0 Followers</p>
+            <p>0 Followings</p>
+            <button type="button" id="follow-button">Follow</button>
+        </div>
+        <div id="right-header">
+            <a href="#" ><i class="fas fa-edit"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Album</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Drawings</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Photos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Strips</a>
+    </li>
+
+
+</ul>
+
+
+
+{% endblock content%}
+
