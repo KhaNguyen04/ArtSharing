@@ -17,6 +17,14 @@ Create an Amazon Cognito
   ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/d5050791-28bc-4b29-8e57-b4a90e769f5b)
   ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/c067b824-e718-471a-8c42-d0fd1d05bbfd)
   ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e9db170c-f123-4825-b0f3-10b7e585bd25)
+  ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4b6a411d-2069-4ba2-b560-ed17ae4f612f)
+  ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4211885c-e055-4ea0-8d77-66659bd27b5d)
+  ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/8c626b43-89e6-4cd7-9c09-93eb1c0a15de)
+  ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a94526be-e9d5-4fc1-89f2-60af5426c803)
+
+
+
+
 
 
 
