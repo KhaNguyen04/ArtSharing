@@ -6,7 +6,7 @@
 - Amazon Cognito is a service that provides users pools API
 - Autho0 is used as a middle agent between LinkedIn and Amazon Cognito to transfer identity information since LinkedIn doesn't provide all fields to Amazon Cognito
 
-## Steps by steps
+## Steps 
 Create an Amazon Cognito 
   -First have an AWS account
   -Then create a user pool in Cognito
@@ -96,6 +96,26 @@ Under Allowed OAuth Scopes, select at least the email and openid check b
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85d40caa-dbb5-4323-9146-adbfe94cfb00)
 
+Flutter Linkedin sign up
 
+library: linkedin_login 
+https://pub.dev/packages/linkedin_login
+Instruction: https://mobikul.com/linkedin-login-in-flutter/
+
+
+    LinkedInUserWidget(
+       redirectUrl: redirectUrl,
+       clientId: clientId,
+       clientSecret: clientSecret,
+       onGetUserProfile:
+           (UserSucceededAction linkedInUser) {
+                print('Access token ${linkedInUser.user.token.accessToken}');
+                print('First name: ${linkedInUser.user.firstName.localized.label}');
+                print('Last name: ${linkedInUser.user.lastName.localized.label}');
+       },
+       onError: (UserFailedAction e) {
+                print('Error: ${e.toString()}');
+       },
+    )
 
 
