@@ -39,6 +39,16 @@ Create a LinkedIn app
   -Go to https://developer.linkedin.com/ to create the application
   ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/ddd5301b-89cf-4999-9008-8694ca398516)
   ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1580b3c5-8fbc-4317-baab-51817b92ca4a)
+  -Choose the Auth tab. Confirm that r_emailaddress and r_liteprofile are listed. These permissions are required for Auth0 to access the required LinkedIn user info.
+Note: If you don't see the r_emailaddress and r_liteprofile listed, then add the product "Sign In with LinkedIn" to your application. This is found on the Products tab of your LinkedIn Dev page.
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/d0596980-5519-4dcd-8676-fc2eb8a46062)
+
+Under OAuth 2.0 settings, next to Redirect URLs:, choose the pencil icon, and then choose + Add redirect URL.
+Under Redirect URLs:, enter https://tenantName.us.auth0.com/login/callback, replacing tenantName with your Auth0 tenant name (or an Auth0 custom domain).
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/2dccb94f-44db-4590-9ebc-7d2fcaa32dbd)
+  Tenant name in Auth0
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85c812ee-bf9c-4858-ac4e-2455e1fafb6f)
 
 
 
