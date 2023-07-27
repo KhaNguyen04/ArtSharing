@@ -63,11 +63,38 @@ For Attributes, select the Email address check box.
 Client ID in Cognito
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/9b07848b-f313-4efa-9cae-351e19ae24ad)
 
-Add an OIDC provider to your user pool
+Add OIDC provider to your user pool
 
+In the Amazon Cognito console management page for your user pool, in Sign-in experience, under Federation, choose Identity Providers.
 
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/178044e6-06a2-4a43-ba3c-b8cb495148f2)
+Choose OpenID Connect.
+Enter the details of your Auth0 app for the OIDC provider details, as follows:
+For Provider name, enter a name (for example, Auth0-LinkedIn). This name appears in the Amazon Cognito hosted web UI.
+Note: You can't change this field after creating the provider.
+For Client ID, enter the Client ID that you copied earlier from your Auth0 application.
+For Client secret (optional), enter the Client Secret that you copied earlier from your Auth0 application.
+For Attributes request method, leave the setting as GET.
+For Authorize scope, enter openid profile email.
+For Issuer, enter the URL of your Auth0 profile. For example, https://tenantName.auth0.com, replacing tenantName with your Auth0 tenant name.
+For Identifiers (optional), you can optionally enter a custom string to use later in the endpoint URL in place of your OIDC provider's name.
+Map attributes: Confirm that the OIDC attribute sub is mapped to the user pool attribute Username.
+Choose Add OIDC attribute. For the new OIDC attribute, enter email. For User pool attribute, choose Email.
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/44df0ef6-31c8-408d-9407-c58604e113ca)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bc0f6709-684e-48e7-bbcc-6a16c6bcd9c5)
 
+Create app client settings for your user pool
 
+In the Amazon Cognito console management page for your user pool, under App integration, choose App client and analytics.
+On the app client page, do the following:
+Under Enabled Identity Providers, select the OIDC provider (for example, Auth0-LinkedIn) and Cognito User Pool check boxes.
+For Callback URL(s), enter a URL where you want your users to be redirected after logging in. For testing, you can enter any valid URL, such as https://example.com/.
+For Sign out URL(s), enter a URL where you want your users to be redirected after logging out. For testing, you can enter any valid URL, such as https://example.com/.
+Under Allowed OAuth Flows, select either the Authorization code grant or Implicit grant check box, or both.
+Note: The allowed OAuth flows you enable determine which values ("code" or "token") you can use for the response_type parameter in your endpoint URL.
+Under Allowed OAuth Scopes, select at least the email and openid check b
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85d40caa-dbb5-4323-9146-adbfe94cfb00)
 
 
 
