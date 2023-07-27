@@ -50,6 +50,22 @@ Under Redirect URLs:, enter https://tenantName.us.auth0.com/login/callback, repl
   Tenant name in Auth0
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85c812ee-bf9c-4858-ac4e-2455e1fafb6f)
 
+Connect to LinkedIn from Auth0
+  On the Auth0 website dashboard, in the left navigation pane, choose Authentication, and then choose Social.
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1aee62be-0f5d-455c-ba0f-03366d18d84b)
+Choose LinkedIn.
+On the Settings pane of the LinkedIn dialog box, do the following:
+For API Key, enter the Client ID that you copied earlier from your LinkedIn app.
+For Secret Key, enter the Client Secret that you copied earlier from your LinkedIn app.
+For Attributes, select the Email address check box.
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f74e62b8-2be1-48ac-9a99-36acaf04b5a2)
+Client ID in Cognito
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/9b07848b-f313-4efa-9cae-351e19ae24ad)
+
+Add an OIDC provider to your user pool
+
+
 
 
 
