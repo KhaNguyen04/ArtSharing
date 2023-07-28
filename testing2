@@ -1,8 +1,29 @@
-#Amazon,  as a social identity provider in an Amazon Cognito user pool in using Flutter [Member: Kha Nguyen]
+# social identity provider in an Amazon Cognito user pool in using Flutter [Member: Kha Nguyen]
 
 Introduction:
-Purpose: Set up LinkedIn as a social identity provider in an Amazon Cognito user pool
+Purpose: Set up Amazon, Facebook, and Google as a social identity provider on in an Amazon Cognito user pool using AWS Amplify
 
-Amazon Cognito is a service that provides users pools API
-Autho0 is used as a middle agent between LinkedIn and Amazon Cognito to transfer identity information since LinkedIn doesn't provide all fields to Amazon Cognito
-Steps by steps
+-AWS Amplify is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications on AWS
+-Amazon Cognito is a service that provides users pools API
+
+Documentations & tutorials:
+https://www.youtube.com/watch?v=4LVeom2V5S8&t=1160s
+https://ui.docs.amplify.aws/flutter/connected-components/authenticator
+
+Not include Apple ID since needed to be paid
+Steps 
+
+-Create a Flutter app: flutter create my_app  
+-Dependencies
+  environment:
+    sdk: '>=3.0.6 <4.0.0'
+  dependencies:
+    flutter:
+      sdk: flutter
+    amplify_flutter: ^1.0.0-next.1
+    amplify_auth_cognito: ^1.0.0-next.1
+    amplify_authenticator: ^1.0.0-next.1
+flutter pub get
+-Configure backend:
+npm install -g @aws-amplify/cli@latest
+Initialize connection to amplify: amplify init
