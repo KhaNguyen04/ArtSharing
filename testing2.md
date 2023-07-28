@@ -32,7 +32,7 @@ Initialize connection to amplify: amplify init
 New app initilize
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1)
 
-Create a user pool in Cognito: amplify add auth
+Add authentication: amplify add auth
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/cb98e816-5688-45f4-ae43-44947e31704d)
 
