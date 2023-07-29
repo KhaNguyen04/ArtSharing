@@ -103,5 +103,14 @@ First Configure Consent Screen:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a01bd1f9-d04d-43df-a625-e31bd91c0e4c)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bd680db2-b34b-4467-adba-b3dde85e1a69)
 Then enter the required fields with any additional customizations
+Configuring social sign in in the app: amplify auth update
+
+Create OAuth client ID
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/87849ace-3dd9-460b-b0cc-9924b018101f)
+Save the Client ID & Client Secret
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/07d11a2f-4590-49b5-8851-d08a8e8dcafa)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/09ea70dd-7659-4234-a395-51bdbaff51a0)
+Configuring social sign in in the app: amplify auth update
+
 
 
