@@ -99,6 +99,9 @@ Get into Credentials in APIs & Services
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
 Create Oauth client ID:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/83bc4330-2459-4598-b259-e341087c61e3)
-Configure Consent Screen:
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3bb50857-b5c8-420e-9e01-4f41fbeb32e3)
+First Configure Consent Screen:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a01bd1f9-d04d-43df-a625-e31bd91c0e4c)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bd680db2-b34b-4467-adba-b3dde85e1a69)
+Then enter the required fields with any additional customizations
+
 
