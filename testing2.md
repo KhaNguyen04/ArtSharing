@@ -84,11 +84,14 @@ Receive an Endpoint:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/2521c328-e055-4ed1-99f2-0aed00f63f9c)
 Paste in App domains the endpoint:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85f35958-968c-4d8c-ace5-cb1d2ea17a56)
-Paste in Site URL the "endpoint/oauth2/idpresponse":
+Paste in Site URL the endpoint+"/oauth2/idpresponse":
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/b0e600fa-d94b-4382-ad01-a35b5543d044)
 Paste in ValidOauth Redirect URIs the "endpoint/oauth2/idpresponse":
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/16403a44-f13c-4310-8763-6b85895c1144)
 
+Testing in app:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/8f06462a-3c69-442c-8713-13b8e9c94388)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/ed38cf6b-d4d9-4017-afdc-491d4e53c69b)
 
 
 Google
@@ -111,6 +114,19 @@ Save the Client ID & Client Secret
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/07d11a2f-4590-49b5-8851-d08a8e8dcafa)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/09ea70dd-7659-4234-a395-51bdbaff51a0)
 Configuring social sign in in the app: amplify auth update
+-Update social sign in including Google
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/056de2a7-d159-4082-94d7-af29c2d5c9d2)
+-Enter the saved Client ID and Client Secret (Also re-entering other social sign in if there are any)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e5c013f6-605c-4855-8581-e0485853780c)
+then: amplify push
+to Receive an Endpoint
+Enter the Endpoint in Authorized Javascript origins
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1319e143-4689-4bc4-9d5d-e2a1823a980a)
+Enter the endpoint+"/oauth2/idpresponse" in Authorized redirect URIs
+
+
+
+
 
 
 
