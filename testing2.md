@@ -1,4 +1,4 @@
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3ada8e46-3a97-4bbf-9503-4a9f8462d533)![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
 # social identity provider in an Amazon Cognito user pool in using Flutter [Member: Kha Nguyen]
 
 Introduction:
@@ -57,3 +57,48 @@ Receive an Endpoint:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/45330260-0cbc-4963-97eb-e4eef67d16a9)
 Paste the "endpoint" to Allowed Origins and "endpoint/oauth2/idpresponse" to Allowed Return URLs:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/8ad05a8a-86bc-445c-8bb4-223234b96593)
+
+Testing in app:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/25b7414f-bffe-4687-acd4-84bf2ea60b30)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/90483b0f-6668-4707-8c5f-28099f152d39)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/920ee5dd-3d7d-47ad-810d-1e73429b32a7)
+User succesfully logged in and stored in Cognito
+
+
+Facebook
+Sign in to Facebook Developer: https://developers.facebook.com/
+Create an app:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e51aa3fb-99d7-4ddf-91ac-8ae49a356620)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a9e93d5e-cbaa-449d-b3a3-f130d38cb7d8)
+Configuring social sign in in the app: amplify auth update
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/d82e2b48-6379-4704-b256-93d7ee1db303)
+Select Facebook
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/7d582966-06b9-49f4-ab50-c28317d4d7ac)
+Get the App ID and App Secret from Facebook Developer
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/6d45a79c-7d38-4b30-a38d-e96bee51a51b)
+
+Paste in to configure Facebook social sign in (Also re-entering other social sign in if there are any):
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/02f580a6-2e50-49a8-860c-816aa83d9804)
+Receive an Endpoint:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/2521c328-e055-4ed1-99f2-0aed00f63f9c)
+Paste in App domains the endpoint:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/85f35958-968c-4d8c-ace5-cb1d2ea17a56)
+Paste in Site URL the "endpoint/oauth2/idpresponse":
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/b0e600fa-d94b-4382-ad01-a35b5543d044)
+Paste in ValidOauth Redirect URIs the "endpoint/oauth2/idpresponse":
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/16403a44-f13c-4310-8763-6b85895c1144)
+
+
+
+Google
+Sign in to Google Developer: https://console.developers.google.com/project
+Create a project:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c)
+Get into Credentials in APIs & Services
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
+Create Oauth client ID:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/83bc4330-2459-4598-b259-e341087c61e3)
+Configure Consent Screen:
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3bb50857-b5c8-420e-9e01-4f41fbeb32e3)
+
