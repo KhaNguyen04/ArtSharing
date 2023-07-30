@@ -1,12 +1,7 @@
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3ada8e46-3a97-4bbf-9503-4a9f8462d533)![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
 
 
-```
-console.log('Code Tab A');
-```
-```
-console.log('Code Tab B');
-```
+
 # Social identity provider in an Amazon Cognito user pool in using Flutter 
 
 ## [Member: Kha Nguyen]
@@ -27,7 +22,9 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 -Create a Flutter app: flutter create my_app  
 -Dependencies <br>
-'''
+
+
+```
   environment:
     sdk: '>=3.0.6 <4.0.0'
   dependencies:
@@ -36,7 +33,9 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
     amplify_flutter: ^1.0.0-next.1
     amplify_auth_cognito: ^1.0.0-next.1
     amplify_authenticator: ^1.0.0-next.1
-'''
+```
+
+
 <br>
 flutter pub get
 -Configure backend:
