@@ -37,7 +37,12 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 
 <br>
-Download: ``` flutter pub get ``` <br>
+In terminal: 
+
+```
+ flutter pub get
+```
+
 -Configure backend:
 npm install -g @aws-amplify/cli@latest
 Initialize connection to amplify: amplify init
