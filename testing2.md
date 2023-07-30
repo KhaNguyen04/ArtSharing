@@ -19,7 +19,7 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 -Create a Flutter app: flutter create my_app  
 -Dependencies <br>
-'''dart
+'''
   environment:
     sdk: '>=3.0.6 <4.0.0'
   dependencies:
@@ -29,6 +29,7 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
     amplify_auth_cognito: ^1.0.0-next.1
     amplify_authenticator: ^1.0.0-next.1
 '''
+<br>
 flutter pub get
 -Configure backend:
 npm install -g @aws-amplify/cli@latest
