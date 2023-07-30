@@ -1,10 +1,10 @@
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3ada8e46-3a97-4bbf-9503-4a9f8462d533)![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
 # Social identity provider in an Amazon Cognito user pool in using Flutter 
 
-##[Member: Kha Nguyen]
+## [Member: Kha Nguyen]
 
-###Introduction:
-####Purpose: Set up Amazon, Facebook, and Google as a social identity provider on in an Amazon Cognito user pool using AWS Amplify
+### Introduction:
+#### Purpose: Set up Amazon, Facebook, and Google as a social identity provider on in an Amazon Cognito user pool using AWS Amplify
 
 -AWS Amplify is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications on AWS
 -Amazon Cognito is a service that provides users pools API
