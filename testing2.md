@@ -6,7 +6,7 @@
 ### Introduction:
 #### Purpose: Set up Amazon, Facebook, and Google as a social identity provider on in an Amazon Cognito user pool using AWS Amplify
 
--AWS Amplify is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications on AWS
+-AWS Amplify is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications on AWS <br>
 -Amazon Cognito is a service that provides users pools API
 
 Documentations & tutorials: <br>
