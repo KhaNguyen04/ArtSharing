@@ -15,10 +15,11 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 <em>Not include Apple ID since needed to be paid</em> <br>
 
-###Set up
+### Set up
 
 -Create a Flutter app: flutter create my_app  
 -Dependencies
+'''
   environment:
     sdk: '>=3.0.6 <4.0.0'
   dependencies:
@@ -27,6 +28,7 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
     amplify_flutter: ^1.0.0-next.1
     amplify_auth_cognito: ^1.0.0-next.1
     amplify_authenticator: ^1.0.0-next.1
+'''
 flutter pub get
 -Configure backend:
 npm install -g @aws-amplify/cli@latest
