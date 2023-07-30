@@ -41,8 +41,7 @@ flutter create my_app
 
 
 <br>
-  In terminal: 
-  &nbsp;
+  &nbsp;  In terminal: 
   ```
    flutter pub get
   ```
