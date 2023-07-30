@@ -18,8 +18,8 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 ### Set up
 
 -Create a Flutter app: flutter create my_app  
--Dependencies
-'''
+-Dependencies <br>
+'''ruby
   environment:
     sdk: '>=3.0.6 <4.0.0'
   dependencies:
