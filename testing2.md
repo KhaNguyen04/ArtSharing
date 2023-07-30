@@ -13,8 +13,9 @@ Documentations & tutorials: <br>
 https://www.youtube.com/watch?v=4LVeom2V5S8&t=1160s <br>
 https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
-<em>Not include Apple ID since needed to be paid</em>
-Set up
+<em>Not include Apple ID since needed to be paid</em> <br>
+
+###Set up
 
 -Create a Flutter app: flutter create my_app  
 -Dependencies
