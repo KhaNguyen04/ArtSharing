@@ -20,8 +20,12 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 ### Set up
 
--Create a Flutter app: flutter create my_app  
--Dependencies <br>
+-Create a Flutter app: 
+
+```
+flutter create my_app  
+```
+-Add Dependencies <br>
 
 
 ```
