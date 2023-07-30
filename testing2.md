@@ -9,9 +9,9 @@
 -AWS Amplify is a set of purpose-built tools and features that enables frontend web and mobile developers to quickly and easily build full-stack applications on AWS
 -Amazon Cognito is a service that provides users pools API
 
-Documentations & tutorials:
-https://www.youtube.com/watch?v=4LVeom2V5S8&t=1160s
-https://ui.docs.amplify.aws/flutter/connected-components/authenticator
+Documentations & tutorials: <br>
+https://www.youtube.com/watch?v=4LVeom2V5S8&t=1160s <br>
+https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 Not include Apple ID since needed to be paid
 Set up
