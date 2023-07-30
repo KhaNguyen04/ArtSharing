@@ -41,11 +41,11 @@ flutter create my_app
 
 
 <br>
-In terminal: 
+  In terminal: 
 
-```
- flutter pub get
-```
+  ```
+   flutter pub get
+  ```
 
 -Configure backend:
 <br>
