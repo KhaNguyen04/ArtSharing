@@ -41,10 +41,7 @@ flutter create my_app
 
 
 <br>
-   In terminal: 
-  ```
-   flutter pub get
-  ```
+   In terminal:  flutter pub get
 
 -Configure backend:
 <br>
