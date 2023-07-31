@@ -47,12 +47,8 @@ flutter create my_app
 <br>
 npm install -g @aws-amplify/cli@latest
 <br>
-***<p style="text-align: center;">Text with basic formatting applied</p>***
 <div align="center">
-  my text here.
-</div>
-
- <p style="text-align: center;"> Initialize connection to amplify in IDE: amplify init   </p>
+Initialize connection to amplify in IDE: amplify init</div>
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
 New app initilize
