@@ -48,7 +48,8 @@ flutter create my_app
 npm install -g @aws-amplify/cli@latest
 <br>
 
-Initialize connection to amplify in IDE: amplify init
+  <center>Initialize connection to amplify in IDE: amplify init   </center>center><br>
+
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
 New app initilize
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1)
