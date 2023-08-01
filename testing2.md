@@ -85,11 +85,11 @@ Receive an Endpoint:
 Paste the "endpoint" to Allowed Origins and "endpoint/oauth2/idpresponse" to Allowed Return URLs:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/8ad05a8a-86bc-445c-8bb4-223234b96593)
 
-Testing in app:
+Testing in app: <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/25b7414f-bffe-4687-acd4-84bf2ea60b30)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/90483b0f-6668-4707-8c5f-28099f152d39)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/920ee5dd-3d7d-47ad-810d-1e73429b32a7)
-User succesfully logged in and stored in Cognito
+<em> User succesfully logged in and stored in Cognito </em>
 
 
 ### Facebook
