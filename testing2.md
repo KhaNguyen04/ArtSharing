@@ -183,13 +183,13 @@ Testing in app: <br>
 ### Google
 Sign in to Google Developer: https://console.developers.google.com/project <br>
 Create a project: <br>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c) <br>
 Get into Credentials in APIs & Services <br>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c) <br>
 Create Oauth client ID: <br>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
+First Configure Consent Screen:(Then enter the required fields with any additional customizations)<br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/83bc4330-2459-4598-b259-e341087c61e3) <br>
-First Configure Consent Screen:(Then enter the required fields with any additional customizations 
-)<br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a01bd1f9-d04d-43df-a625-e31bd91c0e4c)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bd680db2-b34b-4467-adba-b3dde85e1a69) <br>
 Configuring social sign in in the app: amplify auth update
