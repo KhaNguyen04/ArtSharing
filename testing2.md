@@ -4,8 +4,8 @@
 ## [Member: Kha Nguyen]
 
 
-
-[Introduction] # introduction
+- [Introduction](#introduction)
+ 
 Set up
 Amazon 
 Facebook
