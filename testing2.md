@@ -52,14 +52,14 @@ npm install -g @aws-amplify/cli@latest
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
 
-<em> New app initilize </em>
+<em> New app initilize </em> <br>
 
 
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1)
-<em> Add authentication: amplify add auth </em>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1) <br>
+<em> Add authentication: amplify add auth </em> <br>
 
-<em> Update and select a social provider: </em>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a)
+<em> Update and select a social provider: </em> <br>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a) 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/cb98e816-5688-45f4-ae43-44947e31704d)
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e597e47a-9798-4495-bdf6-a5a11ef1a829)
