@@ -94,7 +94,7 @@ Testing in app: <br>
 
 
 ### Facebook
-Sign in to Facebook Developer: https://developers.facebook.com/
+Sign in to Facebook Developer: https://developers.facebook.com/      <br>
 Create an app:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e51aa3fb-99d7-4ddf-91ac-8ae49a356620)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a9e93d5e-cbaa-449d-b3a3-f130d38cb7d8)
