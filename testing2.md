@@ -54,7 +54,6 @@ flutter create my_app
 
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1) <br>
-<em> New app initilize </em> <br>
 </div>
 
 Add authentication: amplify add auth </em>
