@@ -42,6 +42,33 @@ flutter create my_app
     amplify_auth_cognito: ^1.0.0-next.1
     amplify_authenticator: ^1.0.0-next.1
 ```
+
+<br>
+   In terminal: <em> flutter pub get </em> 
+
+-Configure backend: npm install -g @aws-amplify/cli@latest
+<br>
+<div align="center">
+<em> Initialize connection to amplify in IDE: amplify init </em>
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
+
+<em> New app initilize </em> <br>
+
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1) <br>
+</div>
+
+Add authentication: amplify add auth </em>
+<div align="center">
+
+<em> Update and select a social provider: </em> <br>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a) 
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/cb98e816-5688-45f4-ae43-44947e31704d)
+
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e597e47a-9798-4495-bdf6-a5a11ef1a829)
+</div>
+
 -main.dart file:
 ```
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
@@ -97,32 +124,6 @@ class _MyAppState extends State<MyApp> {
   }
 }
 ```
-<br>
-   In terminal: <em> flutter pub get </em> 
-
--Configure backend: npm install -g @aws-amplify/cli@latest
-<br>
-<div align="center">
-<em> Initialize connection to amplify in IDE: amplify init </em>
-
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
-
-<em> New app initilize </em> <br>
-
-
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1) <br>
-</div>
-
-Add authentication: amplify add auth </em>
-<div align="center">
-
-<em> Update and select a social provider: </em> <br>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a) 
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/cb98e816-5688-45f4-ae43-44947e31704d)
-
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e597e47a-9798-4495-bdf6-a5a11ef1a829)
-</div>
-
 
 ### Amazon
 Sign in to Amazon Developer: https://developer.amazon.com/<br>
