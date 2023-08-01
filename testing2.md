@@ -117,7 +117,7 @@ Paste in Site URL the endpoint+"/oauth2/idpresponse":
 Paste in ValidOauth Redirect URIs the "endpoint/oauth2/idpresponse":
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/16403a44-f13c-4310-8763-6b85895c1144)
 
-<em> Testing in app: </em>
+Testing in app: <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/8f06462a-3c69-442c-8713-13b8e9c94388)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/ed38cf6b-d4d9-4017-afdc-491d4e53c69b)
 
