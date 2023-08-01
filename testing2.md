@@ -1,6 +1,3 @@
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
-
-
 
 # Social identity provider in an Amazon Cognito user pool in using Flutter 
 
