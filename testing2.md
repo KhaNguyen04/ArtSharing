@@ -204,11 +204,10 @@ Configuring social sign in in the app: <em> amplify auth update </em>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/056de2a7-d159-4082-94d7-af29c2d5c9d2)
 -Enter the saved Client ID and Client Secret (Also re-entering other social sign in if there are any) <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e5c013f6-605c-4855-8581-e0485853780c)
-then: <em> amplify push </em> <br>
-to Receive an Endpoint <br>
-Enter the Endpoint in Authorized Javascript origins <br>
+then to Receive an Endpoint : <em> amplify push </em> <br>
+Enter the Endpoint in Authorized Javascript origins  & <br>
+enter the endpoint+"/oauth2/idpresponse" in Authorized redirect URIs:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1319e143-4689-4bc4-9d5d-e2a1823a980a) <br>
-Enter the endpoint+"/oauth2/idpresponse" in Authorized redirect URIs
 
 
 
