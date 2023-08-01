@@ -126,11 +126,11 @@ Create a project: <br>
 Get into Credentials in APIs & Services <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
 Create Oauth client ID: <br>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/83bc4330-2459-4598-b259-e341087c61e3)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/83bc4330-2459-4598-b259-e341087c61e3) <br>
 First Configure Consent Screen:(Then enter the required fields with any additional customizations 
 )<br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/a01bd1f9-d04d-43df-a625-e31bd91c0e4c)
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bd680db2-b34b-4467-adba-b3dde85e1a69)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/bd680db2-b34b-4467-adba-b3dde85e1a69) <br>
 Configuring social sign in in the app: amplify auth update
 
 Create OAuth client ID <br>
@@ -143,10 +143,10 @@ Configuring social sign in in the app: <em> amplify auth update </em>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/056de2a7-d159-4082-94d7-af29c2d5c9d2)
 -Enter the saved Client ID and Client Secret (Also re-entering other social sign in if there are any) <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e5c013f6-605c-4855-8581-e0485853780c)
-then: amplify push
-to Receive an Endpoint
-Enter the Endpoint in Authorized Javascript origins
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1319e143-4689-4bc4-9d5d-e2a1823a980a)
+then: <em> amplify push </em> <br>
+to Receive an Endpoint <br>
+Enter the Endpoint in Authorized Javascript origins <br>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1319e143-4689-4bc4-9d5d-e2a1823a980a) <br>
 Enter the endpoint+"/oauth2/idpresponse" in Authorized redirect URIs
 
 
