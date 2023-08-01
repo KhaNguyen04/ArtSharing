@@ -138,7 +138,7 @@ Create OAuth client ID <br>
 Save the Client ID & Client Secret <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/07d11a2f-4590-49b5-8851-d08a8e8dcafa)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/09ea70dd-7659-4234-a395-51bdbaff51a0)
-Configuring social sign in in the app: amplify auth update 
+Configuring social sign in in the app: <em> amplify auth update </em>
 -Update social sign in including Google <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/056de2a7-d159-4082-94d7-af29c2d5c9d2)
 -Enter the saved Client ID and Client Secret (Also re-entering other social sign in if there are any) <br>
