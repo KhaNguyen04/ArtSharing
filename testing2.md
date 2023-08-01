@@ -3,6 +3,14 @@
 
 ## [Member: Kha Nguyen]
 
+
+
+[Introduction] # introduction
+Set up
+Amazon 
+Facebook
+Google
+
 ### Introduction:
 #### Purpose: Set up Amazon, Facebook, and Google as a social identity provider on in an Amazon Cognito user pool using AWS Amplify
 
