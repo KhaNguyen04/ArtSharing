@@ -5,9 +5,8 @@
 
 
 - [Introduction](#introduction)
-- [Setup](#setup]
-Set up
-Amazon 
+- [Set up](#setup]
+- Amazon 
 Facebook
 Google
 
@@ -23,7 +22,7 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 <em>Not include Apple ID since needed to be paid</em> <br>
 
-###setup
+### Set up
 
 -Create a Flutter app: 
 
