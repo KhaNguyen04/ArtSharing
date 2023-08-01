@@ -23,7 +23,7 @@ https://ui.docs.amplify.aws/flutter/connected-components/authenticator <br>
 
 <em>Not include Apple ID since needed to be paid</em> <br>
 
-### Setup
+###setup
 
 -Create a Flutter app: 
 
