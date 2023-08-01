@@ -122,7 +122,7 @@ Testing in app: <br>
 ### Google
 Sign in to Google Developer: https://console.developers.google.com/project <br>
 Create a project: <br>
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c) <br>
 Get into Credentials in APIs & Services <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/541685d4-a2cc-4cd3-b29b-303c3b31e43d)
 Create Oauth client ID: <br>
