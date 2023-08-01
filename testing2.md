@@ -56,14 +56,14 @@ npm install -g @aws-amplify/cli@latest
 
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1)
-</div>
-Add authentication: amplify add auth
+<em> Add authentication: amplify add auth </em>
 
-Update and select a social provider:
+<em> Update and select a social provider: </em>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1ddf452a-efa5-48fa-a086-4041711c9c1a)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/cb98e816-5688-45f4-ae43-44947e31704d)
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e597e47a-9798-4495-bdf6-a5a11ef1a829)
+</div>
 
 
 Amazon
