@@ -41,11 +41,9 @@ flutter create my_app
 
 
 <br>
-   In terminal:  flutter pub get
+   In terminal: <em> flutter pub get </em> 
 
--Configure backend:
-<br>
-npm install -g @aws-amplify/cli@latest
+-Configure backend: npm install -g @aws-amplify/cli@latest
 <br>
 <div align="center">
 <em> Initialize connection to amplify in IDE: amplify init </em>
@@ -56,6 +54,8 @@ npm install -g @aws-amplify/cli@latest
 
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1) <br>
+<em> New app initilize </em> <br>
+
 <em> Add authentication: amplify add auth </em> <br>
 
 <em> Update and select a social provider: </em> <br>
