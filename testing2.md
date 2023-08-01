@@ -52,7 +52,10 @@ npm install -g @aws-amplify/cli@latest
 </div>
 
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/71837d46-d1aa-47dc-a9b8-6b53be105580)
-New app initilize
+<div align="center">
+<em> New app initilize </em>
+</div>
+
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/4078ae40-4a29-4c4b-ac77-e057a7ebb0f1)
 
 Add authentication: amplify add auth
