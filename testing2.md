@@ -137,7 +137,7 @@ Create OAuth client ID <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/87849ace-3dd9-460b-b0cc-9924b018101f)
 Save the Client ID & Client Secret <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/07d11a2f-4590-49b5-8851-d08a8e8dcafa)
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/09ea70dd-7659-4234-a395-51bdbaff51a0)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/09ea70dd-7659-4234-a395-51bdbaff51a0) <br>
 Configuring social sign in in the app: <em> amplify auth update </em>
 -Update social sign in including Google <br>
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/056de2a7-d159-4082-94d7-af29c2d5c9d2)
