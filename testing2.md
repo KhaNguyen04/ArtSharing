@@ -209,7 +209,10 @@ Enter the Endpoint in Authorized Javascript origins  & <br>
 enter the endpoint+"/oauth2/idpresponse" in Authorized redirect URIs:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/1319e143-4689-4bc4-9d5d-e2a1823a980a) <br>
 
-
+Testing Google social sign in: <br>
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f5189c1b-9c78-43af-a8a5-1ff0c07c809b)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/c24fa7e0-8e3b-4fd4-bc78-d0dff1d959da)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/d336b897-f63a-4f48-b44b-4aadc7caafaf)
 
 
 
