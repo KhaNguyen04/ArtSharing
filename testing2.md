@@ -122,7 +122,7 @@ Paste in ValidOauth Redirect URIs the "endpoint/oauth2/idpresponse":
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/ed38cf6b-d4d9-4017-afdc-491d4e53c69b)
 
 
-Google
+### Google
 Sign in to Google Developer: https://console.developers.google.com/project
 Create a project:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c)
