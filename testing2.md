@@ -1,4 +1,4 @@
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/3ada8e46-3a97-4bbf-9503-4a9f8462d533)![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/10e4f214-ffb6-4bae-8c30-745075d8c5f7)
 
 
 
@@ -106,8 +106,8 @@ Get the App ID and App Secret from Facebook Developer
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/6d45a79c-7d38-4b30-a38d-e96bee51a51b)
 
 Paste in to configure Facebook social sign in (Also re-entering other social sign in if there are any):
+![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/b11c23f5-1085-4972-8111-343502f0b3fb)
 
-![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/02f580a6-2e50-49a8-860c-816aa83d9804)
 Receive an Endpoint:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/2521c328-e055-4ed1-99f2-0aed00f63f9c)
 Paste in App domains the endpoint:
