@@ -123,7 +123,7 @@ Testing in app: <br>
 
 
 ### Google
-Sign in to Google Developer: https://console.developers.google.com/project
+Sign in to Google Developer: https://console.developers.google.com/project <br>
 Create a project:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/f52eaaac-875f-45b0-aaba-5456355a981c)
 Get into Credentials in APIs & Services
