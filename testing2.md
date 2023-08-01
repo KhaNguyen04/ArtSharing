@@ -66,8 +66,9 @@ npm install -g @aws-amplify/cli@latest
 </div>
 
 
-Amazon
-Sign in to Amazon Developer: https://developer.amazon.com/
+### Amazon
+Sign in to Amazon Developer: https://developer.amazon.com/<br>
+
 Create a security profile:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/c5c16ab7-bf63-4eb1-b235-c36b6f5ace46)
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/014021c0-5cf7-4d8d-9c22-f216864932c1)
@@ -90,7 +91,7 @@ Testing in app:
 User succesfully logged in and stored in Cognito
 
 
-Facebook
+### Facebook
 Sign in to Facebook Developer: https://developers.facebook.com/
 Create an app:
 ![image](https://github.com/KhaNguyen04/ArtSharing/assets/88961521/e51aa3fb-99d7-4ddf-91ac-8ae49a356620)
