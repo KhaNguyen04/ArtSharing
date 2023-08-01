@@ -6,7 +6,7 @@
 
 - [Introduction](#introduction)
 - [Set up](#set-up)
-- Amazon 
+- [Amazon](#amazon)
 Facebook
 Google
 
